@@ -20,49 +20,31 @@
 🛠️ Використані технології
 Backend
 
-Java 21
+ Java 21
 
-Spring Boot 4
+ Spring Boot 4
 
-Spring WebSocket
+ Spring WebSocket
 
-Spring MVC
+ Spring MVC
 
-STOMP Message Broker
+ STOMP Message Broker
 
-Lombok
+ Lombok
 
-Frontend
+ Frontend
 
-HTML5
+ HTML5
+ 
+ Bootstrap 5
 
-Bootstrap 5
+ JavaScript
 
-JavaScript
+ SockJS
 
-SockJS
+ STOMP.js
 
-STOMP.js
-
-Шаблонізатор
-
-Thymeleaf
-
-📂 Структура проєкту
-src
- └── main
-     ├── java
-     │   └── li.chat.app
-     │       ├── config
-     │       │   └── WebSocketConfig.java
-     │       ├── controller
-     │       │   └── ChatController.java
-     │       └── model
-     │           └── ChatMessage.java
-     └── resources
-         ├── templates
-         │   └── chat.html
-         └── application.yml
+ Шаблонізатор Thymeleaf
 
 🔧 Конфігурація WebSocket
 
