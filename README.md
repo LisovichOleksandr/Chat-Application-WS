@@ -18,53 +18,17 @@
 🎨 Простий інтерфейс на Bootstrap
 
 🛠️ Використані технології
-Backend
-
- Java 21
-
- Spring Boot 4
-
- Spring WebSocket
-
- Spring MVC
-
- STOMP Message Broker
-
- Lombok
-
- Frontend
-
- HTML5
- 
- Bootstrap 5
-
- JavaScript
-
- SockJS
-
- STOMP.js
-
- Шаблонізатор Thymeleaf
+Backend: Java 21, Spring Boot 4, Spring WebSocket, Spring MVC, STOMP Message Broker, Lombok, 
+HTML5, Bootstrap 5, JavaScript, SockJS, STOMP.js, Thymeleaf
 
 🔧 Конфігурація WebSocket
-
-Endpoint підключення:
-
-/chat
-
-
-Вхідні повідомлення:
-
-/app/sendMessage
-
-
-Канал підписки:
-
-/topic/messages
+Endpoint підключення: /chat
+Вхідні повідомлення: /app/sendMessage
+Канал підписки: /topic/messages
 
 ▶️ Як запустити проєкт
 1️⃣ Клонувати репозиторій
-git clone https://github.com/your-username/chat-application.git
+git clone https://github.com/LisovichOleksandr/Chat-Application-WS.git
 cd chat-application
 
 2️⃣ Запустити застосунок
@@ -74,25 +38,16 @@ mvn spring-boot:run
 http://localhost:8080/chat
 
 📸 Як це працює
-
 Користувач відкриває сторінку чату
-
 Вводить ім’я та повідомлення
-
 Повідомлення надсилається через STOMP
-
 Сервер ретранслює повідомлення всім підписаним клієнтам
-
 Повідомлення миттєво з’являється у всіх учасників чату
 
 🎯 Мета проєкту
-
 Закріпити знання Spring WebSocket
-
 Зрозуміти роботу STOMP Message Broker
-
 Навчитись будувати real-time застосунки
-
 Створити якісний портфоліо-проєкт
 
 👤 Автор
