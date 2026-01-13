@@ -27,6 +27,7 @@ Endpoint підключення: /chat
 Канал підписки: /topic/messages
 
 ▶️ Як запустити проєкт
+
 1️⃣ Клонувати репозиторій
 git clone https://github.com/LisovichOleksandr/Chat-Application-WS.git
 cd chat-application
